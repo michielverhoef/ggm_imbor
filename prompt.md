@@ -38,18 +38,31 @@ Geef het attribuut het Stereotype "Attribuutsoort" zoals in het profiel beschrev
 
 
 # GUIDs
-Gebruik imbor_2025.xml dit bestand bevat de nieuwe versie van het model, dit is IMBOR2025.
+Gebruik ggm_klassenimbor2025.xml dit bestand bevat de nieuwe versie van het model, dit is IMBORKLASSEN2025.
+Gebruik ggm_objecttypenimbor2025.zip. In deze zipfile staat ggm_objecttypenimbor2025.xml en dit xml bestand bevat de nieuwe versie van het model, dit is IMBOROBJECTTYPEN2025.
+Gebruik ggm_enumimbor2025.xml dit bestand bevat de nieuwe versie van het model, dit is IMBORENUM2025.
 Gebruik imbor_oud.xml, dit bestand bevat de oude versie van het model, dit is IMBOROUD.
 
-Vergelijk IMBOR2025 met IMBOROUD.
-
-Voor elk element met het xmi:type="uml:Class" (dit noemen we vanaf nu een Class) in IMBOR2025 zoek het element met xmi:type="uml:Class" 
-(dit noemen we vanaf nu een ClassOud) met dezelfde naam in IMBOROUD. Vervang de waarde van het attribuut xmi:id van de Class IMBOR2025 met de waarde van het attribuut xmi:id van de ClassOud uit IMBOROUD. Doe dit voor alle classes in IMBOR2025.
+Vergelijk IMBORENUM2025, IMBORKLASSEN2025 en IMBOROBJECTTYPEN2025 met IMBOROUD. Kun je de vergelijking als uml model weergeven? Verander geen relaties of namen.
+Het formaat: het liefst xmi 2.1 geschikt voor EA.
 
 
-Voor elk packagedElement met het xmi:type="uml:Enumeration" (dit noemen we vanaf nu een Enum) in IMBOR2025 zoek het packagedElement met xmi:type="uml:Enumeration" (dit noemen we vanaf nu een EnumOud) met dezelfde naam in IMBOROUD. 
-Vervang de waarde van het attribuut xmi:id van de Enum uit IMBOR2025 met de waarde van het attribuut xmi:id van de EnumsOud uit IMBOROUD. Doe dit voor alle
-Enums in IMBOR2025.
+Voor elk element met het xmi:type="uml:Package" (dit noemen we vanaf nu een Package) in IMBORKLASSEN2025 zoek het element met xmi:type="uml:Package" 
+(dit noemen we vanaf nu een PackageOud) met dezelfde naam in IMBOROUD. Vervang de waarde van het attribuut xmi:id van het Package IMBORKLASSEN2025 met de waarde van het attribuut xmi:id van het Package uit IMBOROUD. Doe dit voor alle Packages in IMBORKLASSEN2025.
+
+Voor elk element met het xmi:type="uml:Package" (dit noemen we vanaf nu een Package) in IMBOROBJECTTYPEN2025 zoek het element met xmi:type="uml:Package" (dit noemen we vanaf nu een PackageOud) met dezelfde naam in IMBOROUD. Vervang de waarde van het attribuut xmi:id van het Package IMBOROBJECTTYPEN2025 met de waarde van het attribuut xmi:id van het Package uit IMBOROUD. Doe dit voor alle Packages in IMBOROBJECTTYPEN2025.
+
+
+Voor elk element met het xmi:type="uml:Class" (dit noemen we vanaf nu een Class) in IMBOROBJECTTYPEN2025 zoek het element met xmi:type="uml:Class" 
+(dit noemen we vanaf nu een ClassOud) met dezelfde naam in IMBOROUD. Vervang de waarde van het attribuut xmi:id van de Class uit IMBOROBJECTTYPEN2025 met de waarde van het attribuut xmi:id van de ClassOud uit IMBOROUD. Doe dit voor alle classes in IMBOROBJECTTYPEN2025.
+
+Voor elk element met het xmi:type="uml:Class" (dit noemen we vanaf nu een Class) in IMBORKLASSEN2025 zoek het element met xmi:type="uml:Class" 
+(dit noemen we vanaf nu een ClassOud) met dezelfde naam in IMBOROUD. Vervang de waarde van het attribuut xmi:id van de Class uit IMBORKLASSEN2025 met de waarde van het attribuut xmi:id van de ClassOud uit IMBOROUD. Doe dit voor alle classes in IMBORKLASSEN2025.
+
+Voor elk Childelement met het xmi:type="uml:Property" van een Class (dit noemen we vanaf nu een Property) in IMBOR2025 zoek het element met xmi:type="uml:Property" van de bij de Class horende ClassOud (dit noemen we vanaf nu een PropertyOud) met dezelfde naam in IMBOROUD. Vervang de waarde van het attribuut xmi:id van de Property in IMBOR2025 met de waarde van het attribuut xmi:id van de PropertyOud uit IMBOROUD. Doe dit voor alle Properties in IMBOR2025.
+
+Voor elk packagedElement met het xmi:type="uml:Enumeration" (dit noemen we vanaf nu een Enum) in IMBORENUM2025 zoek het packagedElement met xmi:type="uml:Enumeration" (dit noemen we vanaf nu een EnumOud) met dezelfde naam in IMBOROUD. 
+Vervang de waarde van het attribuut xmi:id van de Enum uit IMBORENUM2025 met de waarde van het attribuut xmi:id van de EnumsOud uit IMBOROUD. Doe dit voor alle Enums in IMBORENUM2025.
 
 
 
